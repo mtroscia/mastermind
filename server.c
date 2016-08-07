@@ -475,7 +475,7 @@ int main(int argc, char* argv[])
 
 	if(argc!=3)
   	{
-		printf("ERRORE MAIN: uso ./mastermind_client <indirizzo_IP> <porta>\n");
+		printf("ERRORE MAIN: uso ./mastermind_server <indirizzo_IP> <porta>\n");
 		exit(1);
   	}
 

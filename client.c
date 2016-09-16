@@ -499,7 +499,7 @@ void UDP_sk_cmd()
 		{
 			if(g==4)
 			{
-				printf("\nTu e %s avete pareggiato.\n", nickname);
+				printf("\nTu e %s avete pareggiato.\n", opp_nickname);
 				attempt=0;
 				play=0;	//termino il ciclo while in match()
 			}
